@@ -1,0 +1,53 @@
+:root {
+  --color-primary: #5f0b0b; 
+  --color-secondary: #5f0b0b; 
+  --color-text: #908f8f;
+  --color-background: #f4f7f6;
+  --color-card-bg: #fff;
+  --color-error: #511709;
+  --font-family-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, #root {
+  font-family: var(--font-family-body);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  min-height: 100vh;
+}
+
+.root-layout {
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh;      
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.main-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-grow: 1; 
+}
+
+h1 {
+    color: var(--color-primary);
+    margin-bottom: 15px;
+}
+
+.login-placeholder {
+    font-size: 1.2rem;
+    padding: 20px;
+    background-color: #f4e9da;
+    border-left: 5px solid var(--color-secondary);
+    margin-top: 20px;
+}

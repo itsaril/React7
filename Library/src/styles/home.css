@@ -1,0 +1,52 @@
+.home-page {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.home-header {
+  margin-bottom: 30px;
+}
+
+.description {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.home-image-container {
+  margin-bottom: 40px;
+}
+
+.library-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.home-links-section h2 {
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+.links-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home-link-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.home-link-button:hover {
+  background-color: #ffb300;
+  transform: translateY(-2px);
+}
